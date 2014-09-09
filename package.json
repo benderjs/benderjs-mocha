@@ -1,0 +1,33 @@
+{
+	"name": "benderjs-mocha",
+	"version": "0.1.0",
+	"description": "Adapter for Mocha testing framework for Bender.js",
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "jscs . && jshint lib/",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benderjs/benderjs-mocha.git"
+	},
+	"keywords": [
+		"mocha",
+		"bender",
+		"benderjs",
+		"adapter"
+	],
+	"author": "CKSource <npm@cksource.com> (http://cksource.com/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/benderjs/benderjs-mocha/issues"
+	},
+	"homepage": "https://github.com/benderjs/benderjs-mocha",
+	"dependencies": {
+		"mocha": "^1.21.4"
+	},
+	"devDependencies": {
+		"jscs": "^1.6.1",
+		"jshint": "^2.5.5"
+	}
+}
