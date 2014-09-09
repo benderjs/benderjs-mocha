@@ -81,6 +81,9 @@ module.exports = config;
 - *Number* `timeout` - test case timeout in milliseconds. Default: `2000`
 - *String|RegExp* `grep` - will only run tests matching the given pattern, this could break some of Bender's default behaviours ,so please use it at your own risk
 
+## TODO:
+- regressions support
+- single test run support
 
 ## License
 
