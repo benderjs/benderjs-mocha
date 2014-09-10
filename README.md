@@ -83,8 +83,6 @@ module.exports = config;
 
 ## Features
 - regression handling
-
-## TODO:
 - single test run support
 
 ## License
