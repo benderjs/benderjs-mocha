@@ -2,5 +2,6 @@
 	"node": true,
 	"undef": true,
 	"unused": true,
+	"evil": true,
 	"predef": [ "window", "bender", "mocha", "BENDER_CONFIG" ]
 }
