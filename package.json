@@ -1,6 +1,6 @@
 {
 	"name": "benderjs-mocha",
-	"version": "0.1.5",
+	"version": "0.2.0",
 	"description": "Adapter for Mocha testing framework for Bender.js",
 	"main": "lib/index.js",
 	"scripts": {
@@ -24,7 +24,7 @@
 	},
 	"homepage": "https://github.com/benderjs/benderjs-mocha",
 	"dependencies": {
-		"mocha": "^1.21.4"
+		"mocha": "^2.2.5"
 	},
 	"devDependencies": {
 		"jscs": "^1.6.1",
