@@ -31,13 +31,13 @@ Set `mocha` as a `framework` for the entire project or just a specific tests gro
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-        
+
     framework: 'mocha', // use for entire project
-    
+
     plugins: ['benderjs-mocha'],
-        
+
     tests: {
         Foo: {
             basePath: '',
@@ -57,18 +57,18 @@ You can set some of Mocha's options using `bender.js` configuration file.
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-        
+
     framework: 'mocha',
-    
+
     // configure Mocha
     mocha: {
-        ui: 'tdd'    
+        ui: 'tdd'
     },
-    
+
     plugins: ['benderjs-mocha'],
-        
+
     tests: {...}
 };
 
@@ -82,7 +82,6 @@ module.exports = config;
 - *String|RegExp* `grep` - will only run tests matching the given pattern, this could break some of Bender's default behaviours ,so please use it at your own risk
 
 ## Features
-- regression handling
 - single test run support
 
 ## License
