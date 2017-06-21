@@ -1,6 +1,6 @@
 # benderjs-mocha
 
-Adapter for [Mocha](http://visionmedia.github.io/mocha/) testing framework for [Bender.js](https://github.com/benderjs/benderjs).
+Adapter for [Mocha](http://mochajs.org/) testing framework for [Bender.js](https://github.com/benderjs/benderjs).
 
 ## Installation
 
